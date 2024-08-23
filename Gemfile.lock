@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    qdtsne (0.1.0)
+      numo-narray
+      rice
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    numo-narray (0.9.2.1)
+    power_assert (2.0.3)
+    rake (13.2.1)
+    rake-compiler (1.2.7)
+      rake
+    rice (4.3.1)
+    test-unit (3.6.2)
+      power_assert
+
+PLATFORMS
+  arm64-darwin-23
+  ruby
+
+DEPENDENCIES
+  qdtsne!
+  rake
+  rake-compiler
+  test-unit
+
+BUNDLED WITH
+   2.5.17
